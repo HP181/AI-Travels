@@ -5,11 +5,11 @@ import React from 'react'
 const Footer = () => {
   return (
     <footer className="border-t bg-muted/30">
-    <div className="container mx-auto py-12">
-      <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
+    <div className="container mx-auto  py-12">
+      <div className="grid grid-cols-2 md:grid-cols-4 gap-8 w-full place-items-center">
         <div>
-          <h3 className="font-bold mb-4">Destinations</h3>
-          <ul className="space-y-2">
+          <h3 className="font-bold mb-4 text-center">Destinations</h3>
+          <ul className="space-y-2 flex flex-col justify-center items-center">
             <li>
               <Link href="#" className="text-sm text-muted-foreground hover:text-foreground">
                 Europe
@@ -43,8 +43,8 @@ const Footer = () => {
           </ul>
         </div>
         <div>
-          <h3 className="font-bold mb-4">Trip Types</h3>
-          <ul className="space-y-2">
+          <h3 className="font-bold mb-4 text-center">Trip Types</h3>
+          <ul className="space-y-2 flex flex-col justify-center items-center">
             <li>
               <Link href="#" className="text-sm text-muted-foreground hover:text-foreground">
                 Beach Vacations
@@ -78,8 +78,8 @@ const Footer = () => {
           </ul>
         </div>
         <div>
-          <h3 className="font-bold mb-4">Company</h3>
-          <ul className="space-y-2">
+          <h3 className="font-bold mb-4 text-center">Company</h3>
+          <ul className="space-y-2 flex flex-col justify-center items-center">
             <li>
               <Link href="#" className="text-sm text-muted-foreground hover:text-foreground">
                 About Us
@@ -108,8 +108,8 @@ const Footer = () => {
           </ul>
         </div>
         <div>
-          <h3 className="font-bold mb-4">Support</h3>
-          <ul className="space-y-2">
+          <h3 className="font-bold mb-4 text-center">Support</h3>
+          <ul className="space-y-2 flex flex-col justify-center items-center">
             <li>
               <Link href="#" className="text-sm text-muted-foreground hover:text-foreground">
                 Help Center
