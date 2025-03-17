@@ -7,7 +7,7 @@ import { PlaneTakeoffIcon } from 'lucide-react'
 const Header = () => {
   return (
      <header className="fixed top-0 left-0 px-5 z-50 w-full border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
-           <div className="container flex h-16 items-center justify-between">
+           <div className="container mx-auto flex h-16 items-center justify-between">
              <Link href="/" className="flex items-center gap-2 font-bold text-xl">
                <PlaneTakeoffIcon className="h-5 w-5 text-primary" />
                <span>TripWise</span>
