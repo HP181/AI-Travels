@@ -97,7 +97,7 @@ const Intro = () => {
                     Dates
                   </label>
                   <Popover>
-                    <PopoverTrigger asChild className="!block !w-[14em]">
+                    <PopoverTrigger asChild className="!block !w-full md:!w-[14em]">
                       <Button
                         id="date"
                         variant={"outline"}
@@ -171,7 +171,7 @@ const Intro = () => {
                   </label>
 
                   <Popover>
-                    <PopoverTrigger asChild className="!block !w-[14em]">
+                  <PopoverTrigger asChild className="!block !w-full md:!w-[14em]">
                       <Button
                         id="date"
                         variant={"outline"}
@@ -245,7 +245,7 @@ const Intro = () => {
                 <div className="space-y-2">
                   <label className="text-sm font-medium">Dates</label>
                   <Popover>
-                    <PopoverTrigger asChild className="!block !w-[14em]">
+                  <PopoverTrigger asChild className="!block !w-full md:!w-[14em]">
                       <Button
                         id="date"
                         variant={"outline"}
@@ -298,7 +298,7 @@ const Intro = () => {
                 <div className="space-y-2">
                   <label className="text-sm font-medium">Dates</label>
                   <Popover>
-                    <PopoverTrigger asChild className="!block !w-[14em]">
+                  <PopoverTrigger asChild className="!block !w-full md:!w-[14em]">
                       <Button
                         id="date"
                         variant={"outline"}
